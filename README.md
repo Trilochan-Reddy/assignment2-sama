@@ -40,3 +40,45 @@ Table below shows my recomended sports or activities to someone who are interest
 >
 > Whoever makes happy will make others happy too.- *Anne Frank*
 ---
+
+---
+# code fencing
+
+>A matching in a Bipartite Graph is a set of the edges chosen in such a way that no two edges share an endpoint. A maximum matching is a matching of maximum size (maximum number of edges). In a maximum matching, if any edge is added to it, it is no longer a matching. There can be more than one maximum matchings for a given Bipartite Graph. 
+
+<https://www.geeksforgeeks.org/maximum-bipartite-matching/>
+
+```
+int n, k;
+vector<vector<int>> g;
+vector<int> mt;
+vector<bool> used;
+
+bool try_kuhn(int v) {
+    if (used[v])
+        return false;
+    used[v] = true;
+    for (int to : g[v]) {
+        if (mt[to] == -1 || try_kuhn(mt[to])) {
+            mt[to] = v;
+            return true;
+        }
+    }
+    return false;
+}
+
+int main() {
+    //... reading the graph ...
+
+    mt.assign(k, -1);
+    for (int v = 0; v < n; ++v) {
+        used.assign(n, false);
+        try_kuhn(v);
+    }
+
+    for (int i = 0; i < k; ++i)
+        if (mt[i] != -1)
+            printf("%d %d\n", mt[i] + 1, i + 1);
+}
+```
+<https://cp-algorithms.com/graph/kuhn_maximum_bipartite_matching.html>
