@@ -20,7 +20,7 @@ Nearest airport to Manchi Baphe is RGIA
 * Apollo Fish
 ---
 
-[link to aboutme.md](https://github.com/Trilochan-Reddy/assignment2-sama/blob/main/AboutMe.md)
+![link to aboutme.md](https://github.com/Trilochan-Reddy/assignment2-sama/blob/main/AboutMe.md)
 
 ---
 # Recomended sports/Activities
@@ -32,4 +32,11 @@ Table below shows my recomended sports or activities to someone who are interest
 | Basketball | basketball court | 150$,ball,gaurd |
 | volley ball | volleyball court | 50$,teeshirt |
 | Table tennis | TT board | 100$,ball,bat |
+---
+
+---
+# pithy Quote
+> It is during our darkest moments that we must focus to see the light.- *Aristotle*
+>
+> Whoever makes happy will make others happy too.- *Anne Frank*
 ---
