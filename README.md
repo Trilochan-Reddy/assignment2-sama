@@ -19,3 +19,17 @@ Nearest airport to Manchi Baphe is RGIA
 * prawns Biryani
 * Apollo Fish
 ---
+
+[link to aboutme.md](https://github.com/Trilochan-Reddy/assignment2-sama/blob/main/AboutMe.md)
+
+---
+# Recomended sports/Activities
+Table below shows my recomended sports or activities to someone who are interested in sports.<br>In the 1st column i tells about sports,second column location and in third column amount one can buy personal things to play game
+
+| Sports name | Location | Amount |
+|:---         |:---      |:---    |
+| Cricket      | cricket ground | 200$,ball,bat,gaurd |
+| Basketball | basketball court | 150$,ball,gaurd |
+| volley ball | volleyball court | 50$,teeshirt |
+| Table tennis | TT board | 100$,ball,bat |
+---
